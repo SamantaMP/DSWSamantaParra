@@ -1,0 +1,152 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.container {
+  width:1080px;
+  margin:0px auto;
+  font-size:1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+ 
+  
+}
+header {
+  text-align:center;
+  border: 1px solid #ccc;
+  background: #fafafa;
+}
+ #logo{
+  width: 300px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+section,aside {
+  padding: 10px;
+  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+section {
+  float: left;
+  width: 70%;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  text-align: justify;
+}
+aside {
+  float: right;
+  width: 25%;
+  background: #f0b429;
+  color: #333333;
+  font-size: 15px;
+
+}
+nav ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  
+}
+
+nav {
+  overflow: hidden;
+  background: #005883;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+nav ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  
+}
+nav #item {
+  float: left;
+  
+}
+nav #item a {
+background: #005883;
+color: white;
+width: 200px;
+height: 40px;
+display:inline-block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+text-decoration: none;
+text-align: center;
+
+}
+nav #desple {
+  display: none;
+  position: absolute;
+  
+  
+}
+nav #item a:hover {
+  background: #4cb5ff;
+  color: #005883; 
+}
+nav #item:hover #desple {
+  display: block;
+  
+  
+}
+footer {
+  position: fixed;
+  Width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0px 10px 0px;
+  background-color: #333;
+  text-align: center;
+}
+footer a {
+  color:teal;
+}
+@media screen and (max-width:980px) {
+  .container {
+    width:98%;
+  }
+  section {
+    width:68%;
+  }
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #005883;
+}
+main{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #005883;
+  font-size: 40px;
+  text-align: center;
+}
+.lista{
+  width:1080px;
+  margin:0px auto;
+  font-size:1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+mark{
+  color: #005883;
+  background: white;
+  font-size: 19px;
+}
+b{
+  color: #f0b429;
+  background: whitesmoke;
+}
+#estruc{
+  width: 70px;
+  height: 30px;
+}
+
